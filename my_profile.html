@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>My Profile</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+  body {
+    margin: 10%;
+    padding: 5px;
+  }
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+
+
+
+</style>
+
+
+
+
+ </head>
+ <body bgcolor="white" text="black">
+
+ <h1 align="center">My Profile</h1>
+ <h2 align="center"> Ayvon Joseph Biji</h2>
+ <h2 align="center"> <img
+src="D:\Web Development coding\my profile\f1.jpg" width="300"
+height="200">
+ </h2>
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+ <h2>Link</h2>
+ <a href="http://www.karunya.edu">Go to Karunya</a>
+ <br>
+ Email Link:<a href="mailto:ayvonjoseph@karunya.edu.in">contac via email</a>
+ <br>
+ phone Link:<a href="tel:7025824981">call me</a>
+ <br>
+
+<h4 style="text-align:center">The following image works as a link:</h4>
+<br>
+<a href="https:https://www.linkedin.com/in/ayvonjosephbiji/">
+ <img alt="linkedin" src="data:image/png;base64,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"
+ width="250" height="100" >
+ </a>
+<a href="https://www.facebook.com/">
+ <img alt="facebook" src="data:image/png;base64,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"
+ width="250" height="100">
+ </a>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<div id="bio">
+ <h2>Biography</h2>
+ <p>First of all, My name is AYVON JOSEPH BIJI . Study in computer science
+engineering [3ed -year ] from Karunya Institute of Technology and Sciences, (Deemed to
+be University), Coimbatore, Tamil Nadu . I belong to a Nuclear Family . My Strength are
+i am self motivated , hard working and a disciplined person,my short term goal is to get a
+job in a reputed company and my long term goal is to achieve a good position where i can
+build my career and help the organization too..
+ </p>
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+ <h1>My Skills</h1>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<p>PHP</p>
+<div class="container">
+  <div class="skills php">60%</div>
+</div>
+
+
+
+
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+ </div>
+
+ <div id="edu">
+ <h2>Education Details</h2>
+ <br>
+ <br>
+ <center>
+ <table border="1" cellspacing="0">
+ <tr bgcolor="lightblue">
+ <th>Studies</th>
+ <th>School/College</th>
+ <th>Year</th>
+ <th>CGPA</th>
+ <th>Certificate Photo</th>
+</tr>
+<tr>
+<td bgcolor="yellow">10th</td>
+<td>Mount Bethany English Medium Higher Secondary School</td> &nbsp;&nbsp;&nbsp;
+<td>2016</td> &nbsp;&nbsp;&nbsp;
+<td>80 %</td> &nbsp;&nbsp;&nbsp;
+<td>
+<img
+src="https://images1.livehindustan.com/uploadimage/library/2019/05/16/16_9/16_9_3/ja
+c_topper_priya_raj_marksheet_1558021175.jpg" width="150" height="150">
+</td>
+</tr>
+<tr>
+<td bgcolor="yellow">12th</td>
+<td>Mount Bethany English Medium Higher Secondary School</td> &nbsp;&nbsp;&nbsp;
+<td>2018</td>&nbsp;&nbsp;&nbsp;
+<td>73 %</td> &nbsp;&nbsp;&nbsp;
+<td>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFgiLaEFPqZ7urW9yPDmtiLtS0produ8XvSg&usqp=CAU" width="150" height="150"> 
+</td>
+</tr>
+<tr>
+  <td bgcolor="yellow">UG Degree</td>
+ <td>Karunya Institute of Technology and Sciences</td>
+ <td>2022</td>
+ <td>6.36 CGPA</td>
+ <td>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFgiLaEFPqZ7urW9yPDmtiLtS0produ8XvSg&usqp=CAU" width="150" height="150">
+ </td>
+ </tr>
+ </table>
+ </center>
+ <br><br>
+ </div>
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+ <div id="terms">
+ <h2 style="text-align:center">Technical terms</h2>
+ <dl>
+ <dt>WWW</dt>
+ <dd>world wide web</dd>
+ <dt>HTTP</dt>
+ <dd>Hypertext Transfer Protocol</dd>
+ <dt>HTML</dt>
+ <dd>Hypertext Markup Language</dd>
+ <dt>CSS</dt>
+ <dd>Cascading Style Sheet</dd>
+ </dl>
+
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+ <div id="Timetable">
+ <h1 align="center">Class Time Table</h1>
+ <table border="5" cellspacing="0" align="center">
+ <tr bgcolor="lightblue">
+ <td align="center" height="50"
+ width="100"><br>
+ <b>Day/Period</b><br>
+ </td>
+ <td align="center" height="50"
+ width="100">
+ <b>I<br>9:30-10:20</b>
+ </td>
+ <td align="center" height="50"
+ width="100">
+ <b>II<br>10:20-11:10</b>
+ </td>
+ <td align="center" height="50"
+ width="100">
+ <b>III<br>11:10-12:00</b>
+ </td>
+ <td align="center" height="50"
+ width="100">
+ <b>12:00-12:40</b>
+ </td>
+ <td align="center" height="50"
+ width="100">
+ <b>IV<br>12:40-1:30</b>
+ </td>
+ <td align="center" height="50"
+ width="100">
+ <b>V<br>1:30-2:20</b>
+ </td>
+ <td align="center" height="50"
+ width="100">
+ <b>VI<br>2:20-3:10</b>
+ </td>
+ <td align="center" height="50"
+ width="100">
+ <b>VII<br>3:10-4:00</b>
+ </td>
+ </tr>
+ <tr>
+ <td align="center" height="50">
+ <b>Monday</b></td>
+ <td align="center" height="50">English</td>
+ <td align="center" height="50">Maths</td>
+ <td align="center" height="50">Chemestry</td>
+ <td bgcolor="gray" rowspan="6" align="center" height="50">
+ <h2>L<br>U<br>N<br>C<br>H</h2>
+ </td>
+ <td bgcolor="yellow" colspan="3" align="center"
+ height="50">LAB</td>
+ <td align="center" height="50">Physics</td>
+ </tr>
+ <tr>
+ <td align="center" height="50">
+   <b>Tuesday</b>
+ </td>
+ <td bgcolor="yellow" colspan="3" align="center"
+ height="50">LAB
+ </td>
+ <td align="center" height="50">English</td>
+ <td align="center" height="50">Chemestry</td>
+ <td align="center" height="50">Maths</td>
+ <td align="center" height="50">SPORTS</td>
+ </tr>
+ <tr>
+ <td align="center" height="50">
+ <b>Wednesday</b>
+ </td>
+ <td align="center" height="50">Maths</td>
+ <td align="center" height="50">physic</td>
+ <td align="center" height="50">English</td>
+ <td align="center" height="50">Chemestry</td>
+ <td colspan="3" align="center"
+ height="50">LIBRARY
+ </td>
+ </tr>
+ <tr>
+ <td align="center" height="50">
+ <b>Thursday</b>
+ </td>
+ <td align="center" height="50">physic</td>
+ <td align="center" height="50">English</td>
+ <td align="center" height="50">Chemestry</td>
+ <td bgcolor="yellow" colspan="3" align="center"
+ height="50">LAB
+ </td>
+ <td align="center" height="50">Maths</td>
+ </tr>
+ <tr>
+ <td align="center" height="50">
+ <b>Friday</b>
+ </td>
+ <td bgcolor="yellow" colspan="3" align="center"
+ height="50">LAB
+ </td>
+ <td align="center" height="50">Maths</td>
+ <td align="center" height="50">Chemistry</td>
+ <td align="center" height="50">English</td>
+ <td align="center" height="50">Physics</td>
+ </tr>
+ <tr>
+ <td align="center" height="50">
+ <b>Saturday</b>
+ </td>
+ <td align="center" height="50">English</td>
+ <td align="center" height="50">Chemistry</td>
+ <td align="center" height="50">Maths</td>
+ <td colspan="3" align="center"
+ height="50">SEMINAR
+ </td>
+ <td align="center" height="50">SPORTS</td>
+ </tr>
+</table>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<h2>Link</h2>
+<div>
+ <a href="#bio">Biography</a>
+ <a href="#skills">Technical Skills</a>
+ <a href="#edu">Education</a>
+ <a href="#languages">Languages Known</a>
+ <a href="#terms">Technical Terms</a>
+ <a href="#Timetable">Class Time Table</a>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
